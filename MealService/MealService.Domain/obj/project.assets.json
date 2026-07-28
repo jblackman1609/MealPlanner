@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YodaUser\\repos\\src\\MealPlanner\\MealPlanner.SharedKernel\\MealPlanner.SharedKernel.csproj",
-      "projectName": "MealPlanner.SharedKernel",
-      "projectPath": "C:\\Users\\YodaUser\\repos\\src\\MealPlanner\\MealPlanner.SharedKernel\\MealPlanner.SharedKernel.csproj",
+      "projectUniqueName": "C:\\Users\\YodaUser\\repos\\src\\MealPlanner\\MealService\\MealService.Domain\\MealService.Domain.csproj",
+      "projectName": "MealService.Domain",
+      "projectPath": "C:\\Users\\YodaUser\\repos\\src\\MealPlanner\\MealService\\MealService.Domain\\MealService.Domain.csproj",
       "packagesPath": "C:\\Users\\YodaUser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YodaUser\\repos\\src\\MealPlanner\\MealPlanner.SharedKernel\\obj\\",
+      "outputPath": "C:\\Users\\YodaUser\\repos\\src\\MealPlanner\\MealService\\MealService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\YodaUser\\AppData\\Roaming\\NuGet\\NuGet.Config"
