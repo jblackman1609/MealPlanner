@@ -1,0 +1,13 @@
+using MealPlanner.SharedKernel.Domain;
+
+public class Recipe : Entity
+{
+    public string Name { get; private set; }
+    public List<Ingredient> Ingredients { get; private set; }
+
+    public Recipe(Guid id, string name, List<Ingredient> ingredients) : base(id)
+    {
+        Name = name;
+        Ingredients = ingredients;
+    }
+}
