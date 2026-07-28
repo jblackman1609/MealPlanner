@@ -1,5 +1,6 @@
 using MealPlanner.SharedKernel.Domain;
 
+namespace MealService.Domain.ValueObjects;
 /// <summary>
 /// Represents an ingredient used in a recipe. An ingredient is a value object that encapsulates the 
 /// name and quantity of a specific component used in the preparation of a dish. It is immutable, meaning 
