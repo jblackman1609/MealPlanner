@@ -7,7 +7,7 @@ namespace MealService.Domain.Entities;
 /// It is identified by a unique identifier (Id) inherited from the base Entity class. The Meal class provides a structured 
 /// representation of a culinary experience, allowing for the management and organization of meals within the application.
 /// </summary>
-public class Meal : Entity
+public class Meal : AggregateRoot
 {
     /// <summary>
     /// Gets the recipe associated with the meal. This property is set through the constructor and is immutable, 
