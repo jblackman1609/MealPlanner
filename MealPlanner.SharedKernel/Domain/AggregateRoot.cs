@@ -4,8 +4,8 @@ public abstract class AggregateRoot : Entity
     {
     }
 
-    protected IList<DomainEvent> _domainEvents;
-    public IReadOnlyCollection<DomainEvent> DomainEvents => _domainEvents.ToList();
+    protected IList<DomainEvent>? _domainEvents;
+    public IReadOnlyCollection<DomainEvent> DomainEvents => _domainEvents!.ToList();
     protected void AddDomainEvent(DomainEvent domainEvent)
     {
         _domainEvents ??= new List<DomainEvent>();
