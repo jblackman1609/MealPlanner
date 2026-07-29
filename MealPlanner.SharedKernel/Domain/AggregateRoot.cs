@@ -12,13 +12,6 @@ namespace MealPlanner.SharedKernel.Domain
     public abstract class AggregateRoot : Entity
     {
         /// <summary>
-        /// Gets the unique identifier of the aggregate root. This property is used to distinguish the aggregate root from 
-        /// other entities in the domain model. The Id is typically assigned when the aggregate root is created, ensuring that 
-        /// each aggregate root has a unique identifier.
-        /// </summary>
-        public Guid Id { get; protected set; }
-
-        /// <summary>
         /// Gets the collection of domain events associated with the aggregate root. This property provides access to the
         /// domain events that have occurred within the aggregate, allowing other parts of the system to react to those events. 
         /// The domain events are typically added to the collection using the AddDomainEvent method, enabling the capture and 
