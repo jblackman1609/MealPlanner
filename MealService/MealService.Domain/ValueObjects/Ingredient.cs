@@ -28,7 +28,7 @@ namespace MealService.Domain.ValueObjects
         /// </summary>
         /// <param name="name">The name of the ingredient.</param>
         /// <param name="quantity">The quantity of the ingredient.</param>
-        public Ingredient(string name, string quantity)
+        internal Ingredient(string name, string quantity)
         {
             Name = name;
             Quantity = quantity;

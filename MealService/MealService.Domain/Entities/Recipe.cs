@@ -33,7 +33,7 @@ namespace MealService.Domain.Entities
         /// <param name="id">The unique identifier for the recipe.</param>
         /// <param name="name">The name of the recipe.</param>
         /// <param name="ingredients">The list of ingredients required for the recipe.</param>
-        public Recipe(Guid id, string name, List<Ingredient> ingredients) : base(id)
+        internal Recipe(Guid id, string name, List<Ingredient> ingredients) : base(id)
         {
             Name = name;
             _ingredients.AddRange(ingredients);
@@ -46,7 +46,7 @@ namespace MealService.Domain.Entities
         /// recipe.
         /// </summary>
         /// <param name="ingredient"></param>
-        public void Add(Ingredient ingredient)
+        internal void Add(Ingredient ingredient)
         {
             _ingredients.Add(ingredient);
         }
