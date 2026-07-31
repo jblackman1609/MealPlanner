@@ -26,10 +26,10 @@ public class Ingredient
 
     /// <summary>
     /// Gets the scale of the ingredient. This property is immutable after construction, ensuring that the scale of an 
-    /// Ingredient instance cannot be changed once it has been created. The Scales property is an enumeration that represents 
+    /// Ingredient instance cannot be changed once it has been created. The Scale property is an enumeration that represents 
     /// the scale of the ingredient, such as grams, liters, or pieces.
     /// </summary>
-    public Scales Scales { get; private set; }
+    public Scales Scale { get; private set; }
 
     /// <summary>
     /// Initializes a new instance of the Ingredient class with the specified name and quantity. This constructor allows for the
@@ -39,10 +39,10 @@ public class Ingredient
     /// </summary>
     /// <param name="name"></param>
     /// <param name="quantity"></param>
-    public Ingredient(string name, string quantity, Scales scales)
+    internal Ingredient(string name, string quantity, Scales scale)
     {
         Name = name;
         Quantity = quantity;
-        Scales = scales;
+        Scale = scale;
     }
 }
