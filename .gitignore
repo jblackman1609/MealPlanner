@@ -20,3 +20,14 @@ MealService/MealService.Domain/obj/Debug/net10.0/MealService.Domain.AssemblyInfo
 MealService/MealService.Domain/obj/Debug/net10.0/MealService.Domain.assets.cache
 MealService/MealService.Domain/obj/Debug/net10.0/MealService.Domain.GeneratedMSBuildEditorConfig.editorconfig
 MealService/MealService.Domain/obj/Debug/net10.0/MealService.Domain.GlobalUsings.g.cs
+MealService/MealService.Application/obj/MealService.Application.csproj.nuget.dgspec.json
+MealService/MealService.Application/obj/MealService.Application.csproj.nuget.g.props
+MealService/MealService.Application/obj/MealService.Application.csproj.nuget.g.targets
+MealService/MealService.Application/obj/project.assets.json
+MealService/MealService.Application/obj/project.nuget.cache
+MealService/MealService.Application/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.AssemblyInfo.cs
+MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.AssemblyInfoInputs.cache
+MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.assets.cache
+MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.GeneratedMSBuildEditorConfig.editorconfig
+MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.GlobalUsings.g.cs
