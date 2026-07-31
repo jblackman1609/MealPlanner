@@ -17,8 +17,9 @@ public interface IEventPublisher
     /// eventual consistency patterns.
     /// </summary>
     /// <typeparam name="TEvent">The type of the domain event to be published.</typeparam>
+    /// <param name="topic">The topic to which the domain event should be published.</param>
     /// <param name="event">The domain event instance to be published.</param>
     /// <param name="cancellationToken">A cancellation token that can be used to cancel the asynchronous operation.</param>
     /// <returns>A task that represents the asynchronous publish operation.</returns>
-    Task PublishAsync<TEvent>(TEvent @event, CancellationToken cancellationToken = default) where TEvent : IDomainEvent;
+    Task PublishAsync<TEvent>(string topic, TEvent @event, CancellationToken cancellationToken = default) where TEvent : IDomainEvent;
 }
