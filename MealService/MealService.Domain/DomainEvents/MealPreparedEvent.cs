@@ -23,7 +23,7 @@ public class MealPreparedEvent : DomainEvent
     /// <param name="correlationId"></param>
     /// <param name="eventName"></param>
     public MealPreparedEvent(Guid eventId, string correlationId, string eventName)
-        : base(eventId, correlationId, nameof(MealPreparedEvent))
+        : base(eventId, correlationId, eventName)
     {        
     }    
 }
