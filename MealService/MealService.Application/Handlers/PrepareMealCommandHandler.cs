@@ -54,12 +54,12 @@ public class PrepareMealCommandHandler : IRequestHandler<PrepareMealCommand, Res
     /// and publishing a meal-prepared event. This method encapsulates the logic for preparing a meal, allowing other components 
     /// of the system to respond to the meal preparation process in a decoupled manner.
     /// </summary>
-    /// <param name="request"></param>
+    /// <param name="command"></param>
     /// <param name="cancellationToken"></param>
     /// <returns></returns>
-    public async Task<Response<Meal>> HandleAsync(PrepareMealCommand request, CancellationToken cancellationToken = default)
+    public async Task<Response<Meal>> HandleAsync(PrepareMealCommand command, CancellationToken cancellationToken = default)
     {
-        var meal = new Meal(Guid.NewGuid(), request.Recipe, request.MealType);
+        var meal = new Meal(Guid.NewGuid(), command.Recipe, command.MealType);
 
         await _repository.AddAsync(meal);
         await _publisher
