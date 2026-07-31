@@ -4,7 +4,7 @@ namespace MealPlanner.SharedKernel.Domain;
 /// Represents a base class for domain events in the domain model, providing properties to track the occurrence time (OccurredOn),
 /// unique identifier (EventId), and correlation identifier (CorrelationId).
 /// </summary>
-public abstract class DomainEvent
+public abstract class DomainEvent : IDomainEvent
 {
     /// <summary>
     /// Gets the date and time when the domain event occurred. This property is set to the current UTC time when the event is created,
@@ -43,6 +43,7 @@ public abstract class DomainEvent
     {
         EventId = eventId;
         CorrelationId = correlationId;
+        EventName = eventName;
         OccurredOn = DateTime.UtcNow;
     }
 }
