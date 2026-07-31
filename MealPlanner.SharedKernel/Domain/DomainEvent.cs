@@ -26,12 +26,20 @@ public abstract class DomainEvent
     public string CorrelationId { get; protected set; } = string.Empty;
 
     /// <summary>
+    /// Gets the name of the domain event. This property is protected set, allowing derived classes to set the EventName while
+    /// preventing external modification. The EventName is typically set to the name of the derived event class, providing a way 
+    /// to identify the type of event that occurred in the system.
+    /// </summary>
+    public string EventName { get; protected set; } = string.Empty;
+
+    /// <summary>
     /// Initializes a new instance of the DomainEvent class with a unique identifier (EventId) and a correlation identifier 
     /// (CorrelationId).
     /// </summary>
     /// <param name="eventId"></param>
     /// <param name="correlationId"></param>
-    protected DomainEvent(Guid eventId, string correlationId)
+    /// <param name="eventName"></param>
+    protected DomainEvent(Guid eventId, string correlationId, string eventName)
     {
         EventId = eventId;
         CorrelationId = correlationId;
