@@ -31,3 +31,14 @@ MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.As
 MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.assets.cache
 MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.GeneratedMSBuildEditorConfig.editorconfig
 MealService/MealService.Application/obj/Debug/net10.0/MealService.Application.GlobalUsings.g.cs
+MealService/MealService.Infrastructure/obj/MealService.Infrastructure.csproj.nuget.dgspec.json
+MealService/MealService.Infrastructure/obj/MealService.Infrastructure.csproj.nuget.g.props
+MealService/MealService.Infrastructure/obj/MealService.Infrastructure.csproj.nuget.g.targets
+MealService/MealService.Infrastructure/obj/project.assets.json
+MealService/MealService.Infrastructure/obj/project.nuget.cache
+MealService/MealService.Infrastructure/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+MealService/MealService.Infrastructure/obj/Debug/net10.0/MealService.Infrastructure.AssemblyInfo.cs
+MealService/MealService.Infrastructure/obj/Debug/net10.0/MealService.Infrastructure.AssemblyInfoInputs.cache
+MealService/MealService.Infrastructure/obj/Debug/net10.0/MealService.Infrastructure.assets.cache
+MealService/MealService.Infrastructure/obj/Debug/net10.0/MealService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+MealService/MealService.Infrastructure/obj/Debug/net10.0/MealService.Infrastructure.GlobalUsings.g.cs

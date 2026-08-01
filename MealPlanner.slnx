@@ -2,6 +2,7 @@
   <Folder Name="/MealService/">
     <Project Path="MealService/MealService.Application/MealService.Application.csproj" />
     <Project Path="MealService/MealService.Domain/MealService.Domain.csproj" />
+    <Project Path="MealService/MealService.Infrastructure/MealService.Infrastructure.csproj" />
   </Folder>
   <Project Path="MealPlanner.SharedKernel/MealPlanner.SharedKernel.csproj" />
 </Solution>
